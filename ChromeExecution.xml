@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+  <listeners>
+  	<listener class-name="userDefinedLibraries.RetryListener"></listener>
+  </listeners>
+  <test name="ValiadateUser">
+  	<parameter name="os" value="Windows"></parameter>
+  	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="testScenarios.SearchCabs"></class>
+      <class name="userDefinedLibraries.RetryFailedTestCases" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

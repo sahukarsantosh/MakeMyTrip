@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Testing]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="userDefinedLibraries.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="Smoke Test one(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.SearchCabs">
+        <methods>
+          <include name="SelectOneWayOutstation"/>
+          <include name="EnterDataInToLocation"/>
+          <include name="clickSearch"/>
+          <include name="EnterDataInFromLocation"/>
+          <include name="testCaseRex1"/>
+          <include name="HandlingLoginAlert"/>
+          <include name="selectDate"/>
+          <include name="MenuSelect"/>
+          <include name="driverconfig"/>
+          <include name="SelectCarType"/>
+          <include name="scrollToCabs"/>
+          <include name="selectTime"/>
+          <include name="CabsValuesIntoExcel"/>
+          <include name="SelectFromLocation"/>
+          <include name="navigateBack"/>
+          <include name="carDetails"/>
+        </methods>
+      </class> <!-- testScenarios.SearchCabs -->
+    </classes>
+  </test> <!-- Smoke Test one(failed) -->
+  <test thread-count="5" name="Regression Test one(failed)">
+    <groups>
+      <run>
+        <include name="Regression Test one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.SearchCabs">
+        <methods>
+          <include name="ScrollToGiftForm"/>
+          <include name="navigateGiftCardPage"/>
+          <include name="EmailError"/>
+          <include name="EnterDataGiftForm_XML"/>
+          <include name="ClickEmailButton"/>
+          <include name="EnterDataGiftForm_JSON"/>
+          <include name="mangingTabs"/>
+          <include name="ErrorValueIntoExcel"/>
+          <include name="selectBuyNow"/>
+          <include name="SwitchingToDefaultTab"/>
+          <include name="ScrollToGiftCards"/>
+          <include name="ClickGiftCard"/>
+        </methods>
+      </class> <!-- testScenarios.SearchCabs -->
+    </classes>
+  </test> <!-- Regression Test one(failed) -->
+  <test thread-count="5" name="Smoke Test two(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test two"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.SearchCabs">
+        <methods>
+          <include name="CheckAdultsLimit"/>
+          <include name="ClickRooms"/>
+          <include name="ClickHotelsTab"/>
+          <include name="driverexit"/>
+          <include name="adultsListValuesIntoXml"/>
+        </methods>
+      </class> <!-- testScenarios.SearchCabs -->
+    </classes>
+  </test> <!-- Smoke Test two(failed) -->
+</suite> <!-- Failed suite [Functional Testing] -->

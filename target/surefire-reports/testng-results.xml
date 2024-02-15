@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="31" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-14T10:39:44 IST" name="Suite" finished-at="2024-02-14T10:41:10 IST" duration-ms="85704">
+    <groups>
+      <group name="Smoke Test two">
+        <method signature="SearchCabs.ClickRooms()[pri:29, instance:testScenarios.SearchCabs@5b239d7d]" name="ClickRooms" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.CheckAdultsLimit()[pri:30, instance:testScenarios.SearchCabs@5b239d7d]" name="CheckAdultsLimit" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.adultsListValuesIntoXml()[pri:31, instance:testScenarios.SearchCabs@5b239d7d]" name="adultsListValuesIntoXml" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.ClickHotelsTab()[pri:28, instance:testScenarios.SearchCabs@5b239d7d]" name="ClickHotelsTab" class="testScenarios.SearchCabs"/>
+      </group> <!-- Smoke Test two -->
+      <group name="Smoke Test one">
+        <method signature="SearchCabs.testCaseRex1()[pri:1, instance:testScenarios.SearchCabs@5b239d7d]" name="testCaseRex1" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.HandlingLoginAlert()[pri:2, instance:testScenarios.SearchCabs@5b239d7d]" name="HandlingLoginAlert" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.MenuSelect()[pri:3, instance:testScenarios.SearchCabs@5b239d7d]" name="MenuSelect" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.SelectOneWayOutstation()[pri:4, instance:testScenarios.SearchCabs@5b239d7d]" name="SelectOneWayOutstation" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.SelectFromLocation()[pri:5, instance:testScenarios.SearchCabs@5b239d7d]" name="SelectFromLocation" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.EnterDataInFromLocation()[pri:6, instance:testScenarios.SearchCabs@5b239d7d]" name="EnterDataInFromLocation" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.EnterDataInToLocation()[pri:7, instance:testScenarios.SearchCabs@5b239d7d]" name="EnterDataInToLocation" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.selectDate()[pri:8, instance:testScenarios.SearchCabs@5b239d7d]" name="selectDate" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.selectTime()[pri:9, instance:testScenarios.SearchCabs@5b239d7d]" name="selectTime" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.clickSearch()[pri:10, instance:testScenarios.SearchCabs@5b239d7d]" name="clickSearch" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.scrollToCabs()[pri:12, instance:testScenarios.SearchCabs@5b239d7d]" name="scrollToCabs" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.carDetails()[pri:13, instance:testScenarios.SearchCabs@5b239d7d]" name="carDetails" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.navigateBack()[pri:15, instance:testScenarios.SearchCabs@5b239d7d]" name="navigateBack" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.SelectCarType()[pri:11, instance:testScenarios.SearchCabs@5b239d7d]" name="SelectCarType" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.CabsValuesIntoExcel()[pri:14, instance:testScenarios.SearchCabs@5b239d7d]" name="CabsValuesIntoExcel" class="testScenarios.SearchCabs"/>
+      </group> <!-- Smoke Test one -->
+      <group name="Regression Test one">
+        <method signature="SearchCabs.navigateGiftCardPage()[pri:16, instance:testScenarios.SearchCabs@5b239d7d]" name="navigateGiftCardPage" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.mangingTabs()[pri:17, instance:testScenarios.SearchCabs@5b239d7d]" name="mangingTabs" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.ScrollToGiftCards()[pri:18, instance:testScenarios.SearchCabs@5b239d7d]" name="ScrollToGiftCards" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.ClickGiftCard()[pri:19, instance:testScenarios.SearchCabs@5b239d7d]" name="ClickGiftCard" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.ClickEmailButton()[pri:20, instance:testScenarios.SearchCabs@5b239d7d]" name="ClickEmailButton" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.ScrollToGiftForm()[pri:21, instance:testScenarios.SearchCabs@5b239d7d]" name="ScrollToGiftForm" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.EnterDataGiftForm_XML()[pri:22, instance:testScenarios.SearchCabs@5b239d7d]" name="EnterDataGiftForm_XML" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.EnterDataGiftForm_JSON()[pri:23, instance:testScenarios.SearchCabs@5b239d7d]" name="EnterDataGiftForm_JSON" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.selectBuyNow()[pri:24, instance:testScenarios.SearchCabs@5b239d7d]" name="selectBuyNow" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.EmailError()[pri:25, instance:testScenarios.SearchCabs@5b239d7d]" name="EmailError" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.ErrorValueIntoExcel()[pri:26, instance:testScenarios.SearchCabs@5b239d7d]" name="ErrorValueIntoExcel" class="testScenarios.SearchCabs"/>
+        <method signature="SearchCabs.SwitchingToDefaultTab()[pri:27, instance:testScenarios.SearchCabs@5b239d7d]" name="SwitchingToDefaultTab" class="testScenarios.SearchCabs"/>
+      </group> <!-- Regression Test one -->
+    </groups>
+    <test started-at="2024-02-14T10:39:44 IST" name="ValiadateUser" finished-at="2024-02-14T10:41:10 IST" duration-ms="85704">
+      <class name="testScenarios.SearchCabs">
+        <test-method is-config="true" signature="driverconfig(java.lang.String)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:39:44 IST" name="driverconfig" finished-at="2024-02-14T10:39:59 IST" duration-ms="15216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverconfig -->
+        <test-method signature="testCaseRex1()[pri:1, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:39:59 IST" name="testCaseRex1" finished-at="2024-02-14T10:40:04 IST" duration-ms="4223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRex1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:04 IST" name="tearDown" finished-at="2024-02-14T10:40:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCaseRex1 status=SUCCESS method=SearchCabs.testCaseRex1()[pri:1, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="HandlingLoginAlert()[pri:2, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:04 IST" name="HandlingLoginAlert" finished-at="2024-02-14T10:40:05 IST" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandlingLoginAlert -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:05 IST" name="tearDown" finished-at="2024-02-14T10:40:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HandlingLoginAlert status=SUCCESS method=SearchCabs.HandlingLoginAlert()[pri:2, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="MenuSelect()[pri:3, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:05 IST" name="MenuSelect" finished-at="2024-02-14T10:40:06 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MenuSelect -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:06 IST" name="tearDown" finished-at="2024-02-14T10:40:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MenuSelect status=SUCCESS method=SearchCabs.MenuSelect()[pri:3, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="SelectOneWayOutstation()[pri:4, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:06 IST" name="SelectOneWayOutstation" finished-at="2024-02-14T10:40:07 IST" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectOneWayOutstation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:07 IST" name="tearDown" finished-at="2024-02-14T10:40:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectOneWayOutstation status=SUCCESS method=SearchCabs.SelectOneWayOutstation()[pri:4, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="SelectFromLocation()[pri:5, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:07 IST" name="SelectFromLocation" finished-at="2024-02-14T10:40:07 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFromLocation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:07 IST" name="tearDown" finished-at="2024-02-14T10:40:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectFromLocation status=SUCCESS method=SearchCabs.SelectFromLocation()[pri:5, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EnterDataInFromLocation()[pri:6, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:07 IST" name="EnterDataInFromLocation" finished-at="2024-02-14T10:40:11 IST" duration-ms="3789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDataInFromLocation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:11 IST" name="tearDown" finished-at="2024-02-14T10:40:11 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnterDataInFromLocation status=SUCCESS method=SearchCabs.EnterDataInFromLocation()[pri:6, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EnterDataInToLocation()[pri:7, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:11 IST" name="EnterDataInToLocation" finished-at="2024-02-14T10:40:15 IST" duration-ms="3546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDataInToLocation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:15 IST" name="tearDown" finished-at="2024-02-14T10:40:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnterDataInToLocation status=SUCCESS method=SearchCabs.EnterDataInToLocation()[pri:7, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="selectDate()[pri:8, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:15 IST" name="selectDate" finished-at="2024-02-14T10:40:18 IST" duration-ms="3211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDate -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:18 IST" name="tearDown" finished-at="2024-02-14T10:40:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectDate status=SUCCESS method=SearchCabs.selectDate()[pri:8, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="selectTime()[pri:9, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:18 IST" name="selectTime" finished-at="2024-02-14T10:40:18 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTime -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:18 IST" name="tearDown" finished-at="2024-02-14T10:40:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectTime status=SUCCESS method=SearchCabs.selectTime()[pri:9, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickSearch()[pri:10, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:18 IST" name="clickSearch" finished-at="2024-02-14T10:40:23 IST" duration-ms="4667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:23 IST" name="tearDown" finished-at="2024-02-14T10:40:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSearch status=SUCCESS method=SearchCabs.clickSearch()[pri:10, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="SelectCarType()[pri:11, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:23 IST" name="SelectCarType" finished-at="2024-02-14T10:40:25 IST" duration-ms="2224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCarType -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:25 IST" name="tearDown" finished-at="2024-02-14T10:40:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectCarType status=SUCCESS method=SearchCabs.SelectCarType()[pri:11, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="scrollToCabs()[pri:12, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:25 IST" name="scrollToCabs" finished-at="2024-02-14T10:40:25 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToCabs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:25 IST" name="tearDown" finished-at="2024-02-14T10:40:25 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scrollToCabs status=SUCCESS method=SearchCabs.scrollToCabs()[pri:12, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="carDetails()[pri:13, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:25 IST" name="carDetails" finished-at="2024-02-14T10:40:29 IST" duration-ms="3559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:29 IST" name="tearDown" finished-at="2024-02-14T10:40:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=carDetails status=SUCCESS method=SearchCabs.carDetails()[pri:13, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="CabsValuesIntoExcel()[pri:14, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:29 IST" name="CabsValuesIntoExcel" finished-at="2024-02-14T10:40:29 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CabsValuesIntoExcel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:29 IST" name="tearDown" finished-at="2024-02-14T10:40:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CabsValuesIntoExcel status=SUCCESS method=SearchCabs.CabsValuesIntoExcel()[pri:14, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="navigateBack()[pri:15, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:29 IST" name="navigateBack" finished-at="2024-02-14T10:40:32 IST" duration-ms="2831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBack -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:32 IST" name="tearDown" finished-at="2024-02-14T10:40:32 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateBack status=SUCCESS method=SearchCabs.navigateBack()[pri:15, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="navigateGiftCardPage()[pri:16, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:32 IST" name="navigateGiftCardPage" finished-at="2024-02-14T10:40:35 IST" duration-ms="2281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateGiftCardPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:35 IST" name="tearDown" finished-at="2024-02-14T10:40:35 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateGiftCardPage status=SUCCESS method=SearchCabs.navigateGiftCardPage()[pri:16, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="mangingTabs()[pri:17, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:35 IST" name="mangingTabs" finished-at="2024-02-14T10:40:35 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mangingTabs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:35 IST" name="tearDown" finished-at="2024-02-14T10:40:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mangingTabs status=SUCCESS method=SearchCabs.mangingTabs()[pri:17, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ScrollToGiftCards()[pri:18, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:35 IST" name="ScrollToGiftCards" finished-at="2024-02-14T10:40:36 IST" duration-ms="1658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollToGiftCards -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:36 IST" name="tearDown" finished-at="2024-02-14T10:40:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScrollToGiftCards status=SUCCESS method=SearchCabs.ScrollToGiftCards()[pri:18, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickGiftCard()[pri:19, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:36 IST" name="ClickGiftCard" finished-at="2024-02-14T10:40:37 IST" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickGiftCard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:37 IST" name="tearDown" finished-at="2024-02-14T10:40:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickGiftCard status=SUCCESS method=SearchCabs.ClickGiftCard()[pri:19, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickEmailButton()[pri:20, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:37 IST" name="ClickEmailButton" finished-at="2024-02-14T10:40:38 IST" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickEmailButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:38 IST" name="tearDown" finished-at="2024-02-14T10:40:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickEmailButton status=SUCCESS method=SearchCabs.ClickEmailButton()[pri:20, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ScrollToGiftForm()[pri:21, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:38 IST" name="ScrollToGiftForm" finished-at="2024-02-14T10:40:38 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollToGiftForm -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:38 IST" name="tearDown" finished-at="2024-02-14T10:40:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScrollToGiftForm status=SUCCESS method=SearchCabs.ScrollToGiftForm()[pri:21, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EnterDataGiftForm_XML()[pri:22, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:38 IST" name="EnterDataGiftForm_XML" finished-at="2024-02-14T10:40:43 IST" depends-on-methods="testScenarios.SearchCabs.ScrollToGiftForm" duration-ms="4450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDataGiftForm_XML -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:43 IST" name="tearDown" finished-at="2024-02-14T10:40:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnterDataGiftForm_XML status=SUCCESS method=SearchCabs.EnterDataGiftForm_XML()[pri:22, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EnterDataGiftForm_JSON()[pri:23, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:43 IST" name="EnterDataGiftForm_JSON" finished-at="2024-02-14T10:40:44 IST" depends-on-methods="testScenarios.SearchCabs.ScrollToGiftForm" duration-ms="1291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDataGiftForm_JSON -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:44 IST" name="tearDown" finished-at="2024-02-14T10:40:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnterDataGiftForm_JSON status=SUCCESS method=SearchCabs.EnterDataGiftForm_JSON()[pri:23, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="selectBuyNow()[pri:24, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:44 IST" name="selectBuyNow" finished-at="2024-02-14T10:40:44 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBuyNow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:44 IST" name="tearDown" finished-at="2024-02-14T10:40:44 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectBuyNow status=SUCCESS method=SearchCabs.selectBuyNow()[pri:24, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EmailError()[pri:25, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:44 IST" name="EmailError" finished-at="2024-02-14T10:40:45 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailError -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:45 IST" name="tearDown" finished-at="2024-02-14T10:40:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EmailError status=SUCCESS method=SearchCabs.EmailError()[pri:25, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ErrorValueIntoExcel()[pri:26, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:45 IST" name="ErrorValueIntoExcel" finished-at="2024-02-14T10:40:45 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValueIntoExcel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:45 IST" name="tearDown" finished-at="2024-02-14T10:40:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ErrorValueIntoExcel status=SUCCESS method=SearchCabs.ErrorValueIntoExcel()[pri:26, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="SwitchingToDefaultTab()[pri:27, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:45 IST" name="SwitchingToDefaultTab" finished-at="2024-02-14T10:40:45 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchingToDefaultTab -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:45 IST" name="tearDown" finished-at="2024-02-14T10:40:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SwitchingToDefaultTab status=SUCCESS method=SearchCabs.SwitchingToDefaultTab()[pri:27, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickHotelsTab()[pri:28, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:45 IST" name="ClickHotelsTab" finished-at="2024-02-14T10:40:46 IST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickHotelsTab -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:46 IST" name="tearDown" finished-at="2024-02-14T10:40:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickHotelsTab status=SUCCESS method=SearchCabs.ClickHotelsTab()[pri:28, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickRooms()[pri:29, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:46 IST" name="ClickRooms" finished-at="2024-02-14T10:40:47 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRooms -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:47 IST" name="tearDown" finished-at="2024-02-14T10:40:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickRooms status=SUCCESS method=SearchCabs.ClickRooms()[pri:29, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="CheckAdultsLimit()[pri:30, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:40:47 IST" name="CheckAdultsLimit" finished-at="2024-02-14T10:41:08 IST" duration-ms="21062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAdultsLimit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:41:08 IST" name="tearDown" finished-at="2024-02-14T10:41:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckAdultsLimit status=SUCCESS method=SearchCabs.CheckAdultsLimit()[pri:30, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="adultsListValuesIntoXml()[pri:31, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:41:08 IST" name="adultsListValuesIntoXml" finished-at="2024-02-14T10:41:08 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adultsListValuesIntoXml -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:41:08 IST" name="tearDown" finished-at="2024-02-14T10:41:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adultsListValuesIntoXml status=SUCCESS method=SearchCabs.adultsListValuesIntoXml()[pri:31, instance:testScenarios.SearchCabs@5b239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="driverexit()[pri:0, instance:testScenarios.SearchCabs@5b239d7d]" started-at="2024-02-14T10:41:08 IST" name="driverexit" finished-at="2024-02-14T10:41:10 IST" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverexit -->
+      </class> <!-- testScenarios.SearchCabs -->
+    </test> <!-- ValiadateUser -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2303475\Desktop\hackaton project zip\Hackathon2\Hackathon\ChromeExecution.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="CabsValuesIntoExcel">CabsValuesIntoExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="CheckAdultsLimit">CheckAdultsLimit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="ClickEmailButton">ClickEmailButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="ClickGiftCard">ClickGiftCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="ClickHotelsTab">ClickHotelsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="ClickRooms">ClickRooms</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="EmailError">EmailError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="EnterDataGiftForm_JSON">EnterDataGiftForm_JSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="EnterDataGiftForm_XML">EnterDataGiftForm_XML</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="EnterDataInFromLocation">EnterDataInFromLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="EnterDataInToLocation">EnterDataInToLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="ErrorValueIntoExcel">ErrorValueIntoExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="HandlingLoginAlert">HandlingLoginAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="MenuSelect">MenuSelect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="ScrollToGiftCards">ScrollToGiftCards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="ScrollToGiftForm">ScrollToGiftForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="SelectCarType">SelectCarType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="SelectFromLocation">SelectFromLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="SelectOneWayOutstation">SelectOneWayOutstation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="SwitchingToDefaultTab">SwitchingToDefaultTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="adultsListValuesIntoXml">adultsListValuesIntoXml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="carDetails">carDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="clickSearch">clickSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="mangingTabs">mangingTabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="navigateBack">navigateBack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="navigateGiftCardPage">navigateGiftCardPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="scrollToCabs">scrollToCabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="selectBuyNow">selectBuyNow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="selectDate">selectDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="selectTime">selectTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.SearchCabs" class="method navigator-link" hash-for-method="testCaseRex1">testCaseRex1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenarios.SearchCabs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CabsValuesIntoExcel">
+                  </a> <!-- CabsValuesIntoExcel -->
+                  <span class="method-name">CabsValuesIntoExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckAdultsLimit">
+                  </a> <!-- CheckAdultsLimit -->
+                  <span class="method-name">CheckAdultsLimit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickEmailButton">
+                  </a> <!-- ClickEmailButton -->
+                  <span class="method-name">ClickEmailButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickGiftCard">
+                  </a> <!-- ClickGiftCard -->
+                  <span class="method-name">ClickGiftCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickHotelsTab">
+                  </a> <!-- ClickHotelsTab -->
+                  <span class="method-name">ClickHotelsTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickRooms">
+                  </a> <!-- ClickRooms -->
+                  <span class="method-name">ClickRooms</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmailError">
+                  </a> <!-- EmailError -->
+                  <span class="method-name">EmailError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterDataGiftForm_JSON">
+                  </a> <!-- EnterDataGiftForm_JSON -->
+                  <span class="method-name">EnterDataGiftForm_JSON</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterDataGiftForm_XML">
+                  </a> <!-- EnterDataGiftForm_XML -->
+                  <span class="method-name">EnterDataGiftForm_XML</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterDataInFromLocation">
+                  </a> <!-- EnterDataInFromLocation -->
+                  <span class="method-name">EnterDataInFromLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterDataInToLocation">
+                  </a> <!-- EnterDataInToLocation -->
+                  <span class="method-name">EnterDataInToLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ErrorValueIntoExcel">
+                  </a> <!-- ErrorValueIntoExcel -->
+                  <span class="method-name">ErrorValueIntoExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HandlingLoginAlert">
+                  </a> <!-- HandlingLoginAlert -->
+                  <span class="method-name">HandlingLoginAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MenuSelect">
+                  </a> <!-- MenuSelect -->
+                  <span class="method-name">MenuSelect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ScrollToGiftCards">
+                  </a> <!-- ScrollToGiftCards -->
+                  <span class="method-name">ScrollToGiftCards</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ScrollToGiftForm">
+                  </a> <!-- ScrollToGiftForm -->
+                  <span class="method-name">ScrollToGiftForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectCarType">
+                  </a> <!-- SelectCarType -->
+                  <span class="method-name">SelectCarType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectFromLocation">
+                  </a> <!-- SelectFromLocation -->
+                  <span class="method-name">SelectFromLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectOneWayOutstation">
+                  </a> <!-- SelectOneWayOutstation -->
+                  <span class="method-name">SelectOneWayOutstation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SwitchingToDefaultTab">
+                  </a> <!-- SwitchingToDefaultTab -->
+                  <span class="method-name">SwitchingToDefaultTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adultsListValuesIntoXml">
+                  </a> <!-- adultsListValuesIntoXml -->
+                  <span class="method-name">adultsListValuesIntoXml</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carDetails">
+                  </a> <!-- carDetails -->
+                  <span class="method-name">carDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSearch">
+                  </a> <!-- clickSearch -->
+                  <span class="method-name">clickSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mangingTabs">
+                  </a> <!-- mangingTabs -->
+                  <span class="method-name">mangingTabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateBack">
+                  </a> <!-- navigateBack -->
+                  <span class="method-name">navigateBack</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateGiftCardPage">
+                  </a> <!-- navigateGiftCardPage -->
+                  <span class="method-name">navigateGiftCardPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollToCabs">
+                  </a> <!-- scrollToCabs -->
+                  <span class="method-name">scrollToCabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectBuyNow">
+                  </a> <!-- selectBuyNow -->
+                  <span class="method-name">selectBuyNow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectDate">
+                  </a> <!-- selectDate -->
+                  <span class="method-name">selectDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectTime">
+                  </a> <!-- selectTime -->
+                  <span class="method-name">selectTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseRex1">
+                  </a> <!-- testCaseRex1 -->
+                  <span class="method-name">testCaseRex1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2303475\Desktop\hackaton project zip\Hackathon2\Hackathon\ChromeExecution.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;userDefinedLibraries.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ValiadateUser&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScenarios.SearchCabs&quot;/&gt;
+      &lt;class name=&quot;userDefinedLibraries.RetryFailedTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ValiadateUser --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ValiadateUser (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression Test one</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ClickEmailButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ClickGiftCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">EmailError</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">EnterDataGiftForm_JSON</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">EnterDataGiftForm_XML</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ErrorValueIntoExcel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ScrollToGiftCards</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ScrollToGiftForm</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SwitchingToDefaultTab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">mangingTabs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateGiftCardPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectBuyNow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke Test one</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CabsValuesIntoExcel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">EnterDataInFromLocation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">EnterDataInToLocation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HandlingLoginAlert</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">MenuSelect</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectCarType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectFromLocation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectOneWayOutstation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">carDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateBack</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">scrollToCabs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectDate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectTime</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCaseRex1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke Test two</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CheckAdultsLimit</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ClickHotelsTab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ClickRooms</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">adultsListValuesIntoXml</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CheckAdultsLimit')
+data.setCell(0, 2, 'testScenarios.SearchCabs')
+data.setCell(0, 3, 21062);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickSearch')
+data.setCell(1, 2, 'testScenarios.SearchCabs')
+data.setCell(1, 3, 4667);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'EnterDataGiftForm_XML')
+data.setCell(2, 2, 'testScenarios.SearchCabs')
+data.setCell(2, 3, 4450);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCaseRex1')
+data.setCell(3, 2, 'testScenarios.SearchCabs')
+data.setCell(3, 3, 4223);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'EnterDataInFromLocation')
+data.setCell(4, 2, 'testScenarios.SearchCabs')
+data.setCell(4, 3, 3789);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'carDetails')
+data.setCell(5, 2, 'testScenarios.SearchCabs')
+data.setCell(5, 3, 3559);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'EnterDataInToLocation')
+data.setCell(6, 2, 'testScenarios.SearchCabs')
+data.setCell(6, 3, 3546);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectDate')
+data.setCell(7, 2, 'testScenarios.SearchCabs')
+data.setCell(7, 3, 3211);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'navigateBack')
+data.setCell(8, 2, 'testScenarios.SearchCabs')
+data.setCell(8, 3, 2831);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'navigateGiftCardPage')
+data.setCell(9, 2, 'testScenarios.SearchCabs')
+data.setCell(9, 3, 2281);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SelectCarType')
+data.setCell(10, 2, 'testScenarios.SearchCabs')
+data.setCell(10, 3, 2224);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'HandlingLoginAlert')
+data.setCell(11, 2, 'testScenarios.SearchCabs')
+data.setCell(11, 3, 1749);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ScrollToGiftCards')
+data.setCell(12, 2, 'testScenarios.SearchCabs')
+data.setCell(12, 3, 1658);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'EnterDataGiftForm_JSON')
+data.setCell(13, 2, 'testScenarios.SearchCabs')
+data.setCell(13, 3, 1291);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ClickEmailButton')
+data.setCell(14, 2, 'testScenarios.SearchCabs')
+data.setCell(14, 3, 1153);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ClickRooms')
+data.setCell(15, 2, 'testScenarios.SearchCabs')
+data.setCell(15, 3, 1132);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'SelectOneWayOutstation')
+data.setCell(16, 2, 'testScenarios.SearchCabs')
+data.setCell(16, 3, 1005);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ClickHotelsTab')
+data.setCell(17, 2, 'testScenarios.SearchCabs')
+data.setCell(17, 3, 795);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ClickGiftCard')
+data.setCell(18, 2, 'testScenarios.SearchCabs')
+data.setCell(18, 3, 718);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'MenuSelect')
+data.setCell(19, 2, 'testScenarios.SearchCabs')
+data.setCell(19, 3, 635);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'selectTime')
+data.setCell(20, 2, 'testScenarios.SearchCabs')
+data.setCell(20, 3, 560);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'CabsValuesIntoExcel')
+data.setCell(21, 2, 'testScenarios.SearchCabs')
+data.setCell(21, 3, 532);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'EmailError')
+data.setCell(22, 2, 'testScenarios.SearchCabs')
+data.setCell(22, 3, 450);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'selectBuyNow')
+data.setCell(23, 2, 'testScenarios.SearchCabs')
+data.setCell(23, 3, 359);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'SelectFromLocation')
+data.setCell(24, 2, 'testScenarios.SearchCabs')
+data.setCell(24, 3, 316);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'SwitchingToDefaultTab')
+data.setCell(25, 2, 'testScenarios.SearchCabs')
+data.setCell(25, 3, 127);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'ErrorValueIntoExcel')
+data.setCell(26, 2, 'testScenarios.SearchCabs')
+data.setCell(26, 3, 116);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'ScrollToGiftForm')
+data.setCell(27, 2, 'testScenarios.SearchCabs')
+data.setCell(27, 3, 89);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'mangingTabs')
+data.setCell(28, 2, 'testScenarios.SearchCabs')
+data.setCell(28, 3, 69);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'scrollToCabs')
+data.setCell(29, 2, 'testScenarios.SearchCabs')
+data.setCell(29, 3, 62);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'adultsListValuesIntoXml')
+data.setCell(30, 2, 'testScenarios.SearchCabs')
+data.setCell(30, 3, 57);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.SearchCabs</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">driverconfig(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseRex1</span>
+                <span class="method-start">15218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCaseRex1 status=SUCCESS method=SearchCabs.testCaseRex1()[pri:1, instance:testSc...)</span>
+                <span class="method-start">19446 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">HandlingLoginAlert</span>
+                <span class="method-start">19458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=HandlingLoginAlert status=SUCCESS method=SearchCabs.HandlingLoginAlert()[pri:2, ins...)</span>
+                <span class="method-start">21208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">MenuSelect</span>
+                <span class="method-start">21211 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=MenuSelect status=SUCCESS method=SearchCabs.MenuSelect()[pri:3, instance:testScenar...)</span>
+                <span class="method-start">21852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SelectOneWayOutstation</span>
+                <span class="method-start">21854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SelectOneWayOutstation status=SUCCESS method=SearchCabs.SelectOneWayOutstation()[pr...)</span>
+                <span class="method-start">22860 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SelectFromLocation</span>
+                <span class="method-start">22863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SelectFromLocation status=SUCCESS method=SearchCabs.SelectFromLocation()[pri:5, ins...)</span>
+                <span class="method-start">23180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EnterDataInFromLocation</span>
+                <span class="method-start">23184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EnterDataInFromLocation status=SUCCESS method=SearchCabs.EnterDataInFromLocation()[...)</span>
+                <span class="method-start">26975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EnterDataInToLocation</span>
+                <span class="method-start">26983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EnterDataInToLocation status=SUCCESS method=SearchCabs.EnterDataInToLocation()[pri:...)</span>
+                <span class="method-start">30530 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectDate</span>
+                <span class="method-start">30535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectDate status=SUCCESS method=SearchCabs.selectDate()[pri:8, instance:testScenar...)</span>
+                <span class="method-start">33747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectTime</span>
+                <span class="method-start">33750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectTime status=SUCCESS method=SearchCabs.selectTime()[pri:9, instance:testScenar...)</span>
+                <span class="method-start">34311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickSearch</span>
+                <span class="method-start">34314 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickSearch status=SUCCESS method=SearchCabs.clickSearch()[pri:10, instance:testSce...)</span>
+                <span class="method-start">38982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SelectCarType</span>
+                <span class="method-start">38987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SelectCarType status=SUCCESS method=SearchCabs.SelectCarType()[pri:11, instance:tes...)</span>
+                <span class="method-start">41213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">scrollToCabs</span>
+                <span class="method-start">41217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=scrollToCabs status=SUCCESS method=SearchCabs.scrollToCabs()[pri:12, instance:testS...)</span>
+                <span class="method-start">41281 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">carDetails</span>
+                <span class="method-start">41285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=carDetails status=SUCCESS method=SearchCabs.carDetails()[pri:13, instance:testScena...)</span>
+                <span class="method-start">44845 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CabsValuesIntoExcel</span>
+                <span class="method-start">44847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=CabsValuesIntoExcel status=SUCCESS method=SearchCabs.CabsValuesIntoExcel()[pri:14, ...)</span>
+                <span class="method-start">45380 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">navigateBack</span>
+                <span class="method-start">45382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=navigateBack status=SUCCESS method=SearchCabs.navigateBack()[pri:15, instance:testS...)</span>
+                <span class="method-start">48214 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">navigateGiftCardPage</span>
+                <span class="method-start">48218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=navigateGiftCardPage status=SUCCESS method=SearchCabs.navigateGiftCardPage()[pri:16...)</span>
+                <span class="method-start">50501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">mangingTabs</span>
+                <span class="method-start">50506 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=mangingTabs status=SUCCESS method=SearchCabs.mangingTabs()[pri:17, instance:testSce...)</span>
+                <span class="method-start">50576 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ScrollToGiftCards</span>
+                <span class="method-start">50579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ScrollToGiftCards status=SUCCESS method=SearchCabs.ScrollToGiftCards()[pri:18, inst...)</span>
+                <span class="method-start">52238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickGiftCard</span>
+                <span class="method-start">52239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickGiftCard status=SUCCESS method=SearchCabs.ClickGiftCard()[pri:19, instance:tes...)</span>
+                <span class="method-start">52958 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickEmailButton</span>
+                <span class="method-start">52960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickEmailButton status=SUCCESS method=SearchCabs.ClickEmailButton()[pri:20, instan...)</span>
+                <span class="method-start">54115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ScrollToGiftForm</span>
+                <span class="method-start">54118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ScrollToGiftForm status=SUCCESS method=SearchCabs.ScrollToGiftForm()[pri:21, instan...)</span>
+                <span class="method-start">54208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EnterDataGiftForm_XML</span>
+                <span class="method-start">54218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EnterDataGiftForm_XML status=SUCCESS method=SearchCabs.EnterDataGiftForm_XML()[pri:...)</span>
+                <span class="method-start">58669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EnterDataGiftForm_JSON</span>
+                <span class="method-start">58671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EnterDataGiftForm_JSON status=SUCCESS method=SearchCabs.EnterDataGiftForm_JSON()[pr...)</span>
+                <span class="method-start">59963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectBuyNow</span>
+                <span class="method-start">59965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectBuyNow status=SUCCESS method=SearchCabs.selectBuyNow()[pri:24, instance:testS...)</span>
+                <span class="method-start">60325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EmailError</span>
+                <span class="method-start">60328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EmailError status=SUCCESS method=SearchCabs.EmailError()[pri:25, instance:testScena...)</span>
+                <span class="method-start">60779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ErrorValueIntoExcel</span>
+                <span class="method-start">60781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ErrorValueIntoExcel status=SUCCESS method=SearchCabs.ErrorValueIntoExcel()[pri:26, ...)</span>
+                <span class="method-start">60897 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SwitchingToDefaultTab</span>
+                <span class="method-start">60899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SwitchingToDefaultTab status=SUCCESS method=SearchCabs.SwitchingToDefaultTab()[pri:...)</span>
+                <span class="method-start">61027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickHotelsTab</span>
+                <span class="method-start">61029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickHotelsTab status=SUCCESS method=SearchCabs.ClickHotelsTab()[pri:28, instance:t...)</span>
+                <span class="method-start">61827 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickRooms</span>
+                <span class="method-start">61830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickRooms status=SUCCESS method=SearchCabs.ClickRooms()[pri:29, instance:testScena...)</span>
+                <span class="method-start">62963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CheckAdultsLimit</span>
+                <span class="method-start">62967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=CheckAdultsLimit status=SUCCESS method=SearchCabs.CheckAdultsLimit()[pri:30, instan...)</span>
+                <span class="method-start">84029 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">adultsListValuesIntoXml</span>
+                <span class="method-start">84031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=adultsListValuesIntoXml status=SUCCESS method=SearchCabs.adultsListValuesIntoXml()[...)</span>
+                <span class="method-start">84088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">driverexit</span>
+                <span class="method-start">84089 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

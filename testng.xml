@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional Testing" parallel="none">
+	<listeners>
+		<listener class-name="userDefinedLibraries.RetryListener" />
+	</listeners>
+	<test name="Smoke Test one">
+		<groups>
+			<run>
+				<include name="Smoke Test one" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testScenarios.SearchCabs" />
+			<class name="userDefinedLibraries.RetryFailedTestCases" />
+		</classes>
+	</test>
+	<test name="Regression Test one">
+		<groups>
+			<run>
+				<include name="Regression Test one" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testScenarios.SearchCabs" />
+			<class name="userDefinedLibraries.RetryFailedTestCases" />
+		</classes>
+	</test>
+	<test name="Smoke Test two">
+		<groups>
+			<run>
+				<include name="Smoke Test two" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testScenarios.SearchCabs" />
+			<class name="userDefinedLibraries.RetryFailedTestCases" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
